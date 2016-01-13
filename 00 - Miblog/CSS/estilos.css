@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    background-color: #E1E1E1; 
+}
+
+nav ul{
+    padding-left: 0px;
+}
+
+nav li{
+    display: inline-block;
+    border-right: 3px solid black;
+    border-radius: 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    width: 60%;
+    float:left;
+}
+
+section div{
+    background: #B3B3B3;
+    height: 200%;
+}
+
+section span{
+    font-style: italic;    
+}
+
+aside{
+    width: 35%;
+    float: right;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
